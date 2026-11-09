@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Música</title>
+    <link rel="stylesheet" href="cadastrar.css">
+</head>
+<body>
+    <div class="background-overlay"></div>
+    <div class="container">
+        <header>
+            <a href="index.html" class="link-voltar">&larr; Voltar para a lista</a>
+            <h1>Cadastrar música</h1>
+        </header>
+
+        <main class="card-formulario">
+            <div class="grid-campos">
+                <div class="campo item-largo">
+                    <label for="titulo">Título da Música</label>
+                    <input type="text" id="titulo" placeholder="Ex: Evidências">
+                </div>
+                
+                <div class="campo item-largo">
+                    <label for="artista">Nome do Artista</label>
+                    <input type="text" id="artista" placeholder="Ex: Chitãozinho e Xororó">
+                </div>
+                
+                <div class="campo">
+                    <label for="genero">Gênero Musical</label>
+                    <input type="text" id="genero" placeholder="Ex: Sertanejo">
+                </div>
+                
+                <div class="campo">
+                    <label for="ano">Ano de Lançamento</label>
+                    <input type="number" id="ano" placeholder="Ex: 1990">
+                </div>
+                
+                <div class="campo">
+                    <label for="duracao">Duração (minutos)</label>
+                    <input type="number" id="duracao" placeholder="Ex: 5">
+                </div>
+            </div>
+
+            <button id="botaoCadastrar">Cadastrar Música</button>
+        </main>
+    </div>
+
+    <script src="cadastrar.js"></script>
+</body>
+</html>
